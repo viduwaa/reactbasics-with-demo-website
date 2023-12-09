@@ -1,0 +1,44 @@
+.header-part {
+    margin: 5px 0 8px 0;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header-part h1 {
+    padding: 5px;
+    font-size: 5rem;
+    color: rgb(10, 10, 10);
+    backdrop-filter: blur(5px);
+    width: fit-content;
+}
+
+.header-part p {
+    font-size: 2rem;
+    color: rgb(26, 24, 24);
+    backdrop-filter: blur(5px);
+    width: fit-content;
+}
+
+.header-part a button {
+    width: 100px;
+    height: 50px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12rem;
+    background-color: whitesmoke;
+    backdrop-filter:blur(10px);
+    cursor: pointer;
+}
+
+.header-part a button:hover{
+    background: #cfcee0;
+    transition: background 0.2s ease-in;
+}

@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    
+   
+}
+
+.footer p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.social-links{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+}
+
+.social-links svg{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+/* @media screen and (width>1410px){
+    .footer{
+        position: fixed;
+        bottom:0;
+    }
+}
+ */

@@ -1,0 +1,21 @@
+.menu-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.menu-title h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: 80%;
+}

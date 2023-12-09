@@ -1,0 +1,39 @@
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.menuItem div {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.menuItem div .content{
+    backdrop-filter: blur(3px);
+    height: fit-content;
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.order{
+    width: 20% !important;
+}
+
+.order svg{
+    height: 30px;
+    width: 30px;
+}
+
